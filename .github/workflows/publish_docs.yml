@@ -13,7 +13,7 @@ jobs:
           npm install
           npm run build
 
-      - name: Deploy to GitHub pages
+      - name: Deploy
         working-directory: ./documentation
         uses: peaceiris/actions-gh-pages@v3
         with:
