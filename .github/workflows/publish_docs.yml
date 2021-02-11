@@ -15,7 +15,7 @@ jobs:
 
       - name: Copy static assets
         run: |
-          cp -R ./assets ./documentation/assets
+          cp -R ./assets ./documentation/public/assets
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
